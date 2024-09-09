@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Fondo negro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #FFFFFF; /* Texto blanco por defecto */
+}
+
+h1 {
+    color: #FF0000; /* Rojo para el título */
+    margin: 10px 0;
+    text-align: center;
+}
+
+.form-container {
+    background-color: #1C1C1C; /* Fondo oscuro del contenedor */
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #FF0000; /* Borde rojo */
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /* Sombra roja */
+    width: 300px;
+    box-sizing: border-box; /* Incluye el padding y border en el ancho total */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Espacio entre grupos de formulario */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #FF0000; /* Rojo para las etiquetas */
+    font-weight: bold;
+}
+
+input[type="text"], select, textarea {
+    background-color: #2D2D2D; /* Fondo oscuro de campos */
+    color: #FFFFFF; /* Texto blanco en los campos */
+    width: calc(100% - 16px); /* Ajusta el ancho para el padding */
+    padding: 10px; /* Mayor padding para centrar el texto */
+    margin-top: 5px;
+    border: 1px solid #FF0000; /* Borde rojo en campos */
+    border-radius: 4px;
+    box-sizing: border-box; /* Incluye el padding y border en el ancho total */
+}
+
+textarea {
+    resize: vertical; /* Permite cambiar el tamaño vertical del textarea */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF0000; /* Fondo rojo para el botón */
+    color: #FFFFFF; /* Texto blanco en el botón */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #D40000; /* Rojo más oscuro al pasar el mouse */
+}
